@@ -1,0 +1,123 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Rubik:wght@300;400;500;600&display=swap');
+
+/*
+Fonts:
+Poppins: 300, 400, 500, 600, 700, 800
+Rubik: 300, 400, 500, 600
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FBFAF9;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #000000cc;
+    border-radius: 5px;
+}
+
+.btn-signup {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    .btn-signup:hover {
+        background-color: #000000cc;
+    }
+
+.right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    background: url('https://goo.gl/YbktSj');
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 2px 2px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginwith {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #FFF;
+    text-align: center;
+}
+
+.social-signin {
+    margin-bottom: 20px;
+    width: 205px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+    .social-signin:hover,
+    .social-signin:focus {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+        transition: 0.2s ease;
+    }
+
+    .social-signin:active {
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+        transition: 0.2s ease;
+    }
+
+    .social-signin.facebook {
+        background: #32508E;
+    }
+
+    .social-signin.twitter {
+        background: #55ACEE;
+    }
+
+    .social-signin.google {
+        background: #DD4B39;
+    }
