@@ -1,11 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="shopcart.aspx.cs" Inherits="EComProject.Project_Files.aspx.WebForm3" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="shopcart1.aspx.cs" Inherits="EComProject.Project_Files.aspx.WebForm4" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>shopping cart</title>
-    <link rel="stylesheet" type="text/css" href="shoppingcart.css" /> 
+    <link rel="stylesheet" type="text/css" href="shoppingcart.css" />
 </head>
 
 <body>

@@ -13,5 +13,9 @@ namespace EComProject.Project_Files.aspx
         {
 
         }
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Button1.PostBackUrl = "~Product1.aspx";
+        }
     }
 }
