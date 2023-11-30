@@ -73,26 +73,25 @@
             <div class="product">
                 <img src="../Images/Abayas/1.jpeg" alt="Product 1" />
                 <br />
-                <%--<button class="add-to-cart-btn" onclick="Webform3.aspx">Product Details</button>--%>
-                <asp:Button class="add-to-cart-btn" ID="Button1" runat="server" Text="Product Details" />
+                <asp:Button class="add-to-cart-btn" ID="Button1" runat="server" Text="Product Details" PostBackUrl="~/Project Files/aspx/Product1.aspx"/>
             </div>
 
             <div class="product">
                 <img src="../Images/Abayas/2.jpeg" alt="Product 2" />
                 <br />
-                <button class="add-to-cart-btn" onclick="addToCart(2)">Product Details</button>
+                <asp:Button class="add-to-cart-btn" ID="Button2" runat="server" Text="Product Details" PostBackUrl="~/Project Files/aspx/Product2.aspx"/>
             </div>
 
             <div class="product">
                 <img src="../Images/Abayas/3.jpeg" alt="Product 3" />
                 <br />
-                <button class="add-to-cart-btn" onclick="addToCart(3)">Product Details</button>
+                <asp:Button class="add-to-cart-btn" ID="Button3" runat="server" Text="Product Details" PostBackUrl="~/Project Files/aspx/Product3.aspx"/>
             </div>
 
             <div class="product">
                 <img src="../Images/Abayas/4.jpeg" alt="Product 4" />
                 <br />
-                <button class="add-to-cart-btn" onclick="addToCart(4)">Product Details</button>
+                <asp:Button class="add-to-cart-btn" ID="Button4" runat="server" Text="Product Details" PostBackUrl="~/Project Files/aspx/Product4.aspx"/>
             </div>
 
             <%-- Add more product items as needed --%>

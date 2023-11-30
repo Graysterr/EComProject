@@ -9,11 +9,11 @@ using System.Data;
 
 namespace EComProject.Project_Files.aspx
 {
-    public partial class WebForm2 : System.Web.UI.Page
+    public partial class WebForm5 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (IsPostBack) 
+            if (IsPostBack)
             {
                 lblMessage.Text = ""; // Clear error message on postback
             }

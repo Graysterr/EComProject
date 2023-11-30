@@ -15,13 +15,13 @@ namespace EComProject.Project_Files.aspx
     {
 
         /// <summary>
-        /// ddlQuantity control.
+        /// quantity control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlQuantity;
+        protected global::System.Web.UI.WebControls.TextBox quantity;
 
         /// <summary>
         /// addToCartButton control.

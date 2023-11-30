@@ -21,7 +21,6 @@ namespace EComProject.Project_Files.aspx
 
         protected void AddToCart_Click(object sender, EventArgs e)
         {
-            
             // Check if the user is registered (you need to implement this logic based on your authentication mechanism)
             bool isUserRegistered = true; // Replace this with your actual logic
 
